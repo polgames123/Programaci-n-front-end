@@ -1,0 +1,224 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  background-color: rgb(228, 221, 221);
+  background-size: cover;
+  background-position: center ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo img {
+  width: 100px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none; 
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(17, 16, 16)55, 255, 255;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+
+}
+
+.search input {
+  padding: 5px;
+}
+
+.search button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.search button img {
+  width: 30px;
+  height: 30px;
+}
+
+.login a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Banner */
+.content{
+  background-image: url('https://portales.inacap.cl/Assets/imagenes/Valparaiso/2019/marzo/13-3-19-inicio-de-a%C3%B1o-sede-Valpara%C3%ADso-1200x400.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 150px 10px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+
+
+.ver-mas {
+  display: inline-block;
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.652);
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+/* Medidas COVID-19 */
+.medidas-covid {
+  background-color:  #ffffff;
+  padding: none;
+}
+
+.medidas-covid h2 {
+  text-align: center;
+  background-color:   #7b0000;
+  color: white;
+  padding: 10px 10px;
+}
+
+.noticias {
+  display: flex;
+  justify-content: space-around;
+  color: rgb(95, 95, 95);
+  padding: 10px 0px;
+}
+
+.noticias a {
+  text-decoration: none;
+}
+
+.noticias img {
+  width: 200px;
+}
+
+/* Diplomados */
+.Diplomados {
+  background-color: #cecece;
+  padding: 50px 0;
+}
+
+.Diplomados h2 {
+  text-align: center;
+  background-color:  #7b0000;
+  color: rgb(255, 255, 255);
+  padding: 10px 0;
+}
+
+.diplomados-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.Diplomados a {
+  text-decoration: none;
+}
+
+.Diplomados img {
+  width: 200px;
+}
+
+
+
+
+/* Organización */
+.organizacion {
+  background-color: #ffffff;
+  padding: 50px 0;
+}
+
+.organizacion h2 {
+  text-align: center;
+  background-color: #7b0000;
+  color: white;
+  padding: 10px 0;
+}
+
+.organizacion-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.organizacion a {
+  text-decoration: none;
+}
+
+.organizacion img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+/* Agenda */
+.agenda {
+  background-color: #b4b4b4;
+  padding: 50px 0;
+}
+
+.agenda h2 {
+  text-align: center;
+  background-color: #7b0000;
+  color: white;
+  padding: 10px 0;
+}
+
+.agenda-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.agenda img {
+  width: 300px;
+}
+
+/* Video */
+.video {
+  background-color: rgb(255, 254, 254);
+  padding: 0px 0;
+}
+
+.video h2 {
+  text-align: center;
+  background-color: #7b0000;
+  color: white;
+  padding: 10px 0;
+}
+
+.video-container {
+  text-align: center;
+  padding: 30px 0;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.info p {
+  margin: 5px 0;
+}
+
+.redes img {
+  width: 30px;
+  margin: 0 5px;
+}
